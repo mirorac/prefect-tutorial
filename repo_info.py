@@ -17,6 +17,8 @@ def get_repo_info():
 PrefectHQ/prefect repository statistics:
 Stars 🌠 : {repo['stargazers_count']}
 Forks 🍴 : {repo['forks_count']}
+
+hehe
     """
     create_markdown_artifact(
         key="prefect-repo-report",
