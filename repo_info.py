@@ -18,7 +18,7 @@ PrefectHQ/prefect repository statistics:
 Stars 🌠 : {repo['stargazers_count']}
 Forks 🍴 : {repo['forks_count']}
 
-hehe
+hehe Pato bude cumet
     """
     create_markdown_artifact(
         key="prefect-repo-report",
