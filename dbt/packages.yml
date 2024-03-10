@@ -1,0 +1,14 @@
+# Available packages: https://hub.getdbt.com/
+
+packages:
+  # utils and macros
+  - package: dbt-labs/dbt_utils
+    version: 1.1.1
+
+  # best practices check
+  - package: dbt-labs/dbt_project_evaluator
+    version: 0.9.0
+
+  # tests @see https://hub.getdbt.com/calogica/dbt_expectations/latest/
+  - package: calogica/dbt_expectations
+    version: [">=0.9.0", "<0.10.0"]

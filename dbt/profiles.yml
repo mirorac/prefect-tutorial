@@ -1,0 +1,12 @@
+test:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: host.docker.internal
+      user: postgres
+      password: postgres
+      port: 9907
+      dbname: postgres
+      schema: public
+      threads: 1
